@@ -1,0 +1,22 @@
+- id: skill0/meme
+  url: skill0-data:meme
+  reference: https://github.com/x-cmd/skill0
+  tag:
+    - meme
+    - image
+    - text-overlay
+    - pillow
+    - imagemagick
+    - seed
+  license: Apache-2.0
+  name: meme
+  type: skill0
+  description:
+    en: "Generate meme images by overlaying text onto templates. 30+ templates, zero barrier. Works with Python + Pillow or pure shell."
+    cn: "生成梗图。30+ 模板，零门槛。Python + Pillow 或纯 Shell 即可使用。"
+  author: x-cmd
+  avatar: https://avatars.githubusercontent.com/u/79955600
+  path: /meme
+  installation:
+    zipball:
+      github: https://github.com/x-cmd/skill0/releases/latest/download/meme.zip
