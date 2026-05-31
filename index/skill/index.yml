@@ -91,3 +91,161 @@
   installation:
     zipball:
       github: https://github.com/x-cmd/skill0/releases/latest/download/env.zip
+
+- id: skill0/rule
+  url: skill0-data:rule
+  reference: https://github.com/x-cmd/skill0
+  tag:
+    - code-quality
+    - lint
+    - rule
+    - static-analysis
+    - yaml
+  license: Apache-2.0
+  name: rule
+  type: skill0
+  description:
+    en: "Code quality checking with YAML rulesets. Three precision levels: scan, check, audit."
+    cn: "基于 YAML 规则集的代码质量检查。三级精度：扫描、检查、审计。"
+  author: x-cmd
+  avatar: https://avatars.githubusercontent.com/u/79955600
+  path: /rule
+  installation:
+    zipball:
+      github: https://github.com/x-cmd/skill0/releases/latest/download/rule.zip
+
+- id: skill0/ccal
+  url: skill0-data:ccal
+  reference: https://github.com/x-cmd/skill0
+  tag:
+    - calendar
+    - lunar
+    - chinese
+    - solar-terms
+    - holidays
+    - almanac
+  license: Apache-2.0
+  name: ccal
+  type: skill0
+  description:
+    en: "Chinese lunar calendar with solar terms, traditional holidays, and almanac."
+    cn: "中国农历日历，支持节气、传统节日和黄历宜忌。"
+  author: x-cmd
+  avatar: https://avatars.githubusercontent.com/u/79955600
+  path: /ccal
+  installation:
+    zipball:
+      github: https://github.com/x-cmd/skill0/releases/latest/download/ccal.zip
+
+- id: skill0/ip
+  url: skill0-data:ip
+  reference: https://github.com/x-cmd/skill0
+  tag:
+    - ip
+    - geolocation
+    - network
+    - subnet
+    - port-scan
+    - cidr
+  license: Apache-2.0
+  name: ip
+  type: skill0
+  description:
+    en: "IP address utilities — geolocation, subnet scanning, port discovery."
+    cn: "IP 地址工具 — 地理定位、子网扫描、端口发现。"
+  author: x-cmd
+  avatar: https://avatars.githubusercontent.com/u/79955600
+  path: /ip
+  installation:
+    zipball:
+      github: https://github.com/x-cmd/skill0/releases/latest/download/ip.zip
+
+- id: skill0/time
+  url: skill0-data:time
+  reference: https://github.com/x-cmd/skill0
+  tag:
+    - timing
+    - benchmark
+    - performance
+    - measurement
+    - statistics
+  license: Apache-2.0
+  name: time
+  type: skill0
+  description:
+    en: "Command execution timing — microsecond precision, statistical analysis, comparison."
+    cn: "命令执行计时 — 微秒精度、统计分析、性能对比。"
+  author: x-cmd
+  avatar: https://avatars.githubusercontent.com/u/79955600
+  path: /time
+  installation:
+    zipball:
+      github: https://github.com/x-cmd/skill0/releases/latest/download/time.zip
+
+- id: skill0/csv
+  url: skill0-data:csv
+  reference: https://github.com/x-cmd/skill0
+  tag:
+    - csv
+    - data
+    - table
+    - conversion
+    - awk
+    - tsv
+    - json
+  license: Apache-2.0
+  name: csv
+  type: skill0
+  description:
+    en: "CSV data processing — view, filter, convert, merge tabular data."
+    cn: "CSV 数据处理 — 查看、过滤、转换、合并表格数据。"
+  author: x-cmd
+  avatar: https://avatars.githubusercontent.com/u/79955600
+  path: /csv
+  installation:
+    zipball:
+      github: https://github.com/x-cmd/skill0/releases/latest/download/csv.zip
+
+- id: skill0/qr
+  url: skill0-data:qr
+  reference: https://github.com/x-cmd/skill0
+  tag:
+    - qr
+    - qrcode
+    - barcode
+    - encode
+    - terminal
+  license: Apache-2.0
+  name: qr
+  type: skill0
+  description:
+    en: "QR code generation — terminal display, PNG output, pure shell encoding."
+    cn: "二维码生成 — 终端显示、PNG 输出、纯 Shell 编码。"
+  author: x-cmd
+  avatar: https://avatars.githubusercontent.com/u/79955600
+  path: /qr
+  installation:
+    zipball:
+      github: https://github.com/x-cmd/skill0/releases/latest/download/qr.zip
+
+- id: skill0/tldr
+  url: skill0-data:tldr
+  reference: https://github.com/x-cmd/skill0
+  tag:
+    - tldr
+    - cheatsheet
+    - help
+    - documentation
+    - examples
+  license: Apache-2.0
+  name: tldr
+  type: skill0
+  description:
+    en: "Command reference with practical examples from the tldr-pages project."
+    cn: "来自 tldr-pages 项目的命令参考，提供实用示例。"
+  author: x-cmd
+  avatar: https://avatars.githubusercontent.com/u/79955600
+  path: /tldr
+  installation:
+    zipball:
+      github: https://github.com/x-cmd/skill0/releases/latest/download/tldr.zip
