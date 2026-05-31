@@ -249,3 +249,26 @@
   installation:
     zipball:
       github: https://github.com/x-cmd/skill0/releases/latest/download/tldr.zip
+
+- id: skill0/tsv
+  url: skill0-data:tsv
+  reference: https://github.com/x-cmd/skill0
+  tag:
+    - tsv
+    - data
+    - tab
+    - conversion
+    - awk
+    - csv
+  license: Apache-2.0
+  name: tsv
+  type: skill0
+  description:
+    en: "TSV data processing — view, filter, convert tab-separated data."
+    cn: "TSV 数据处理 — 查看、过滤、转换制表符分隔数据。"
+  author: x-cmd
+  avatar: https://avatars.githubusercontent.com/u/79955600
+  path: /tsv
+  installation:
+    zipball:
+      github: https://github.com/x-cmd/skill0/releases/latest/download/tsv.zip
