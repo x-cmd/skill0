@@ -20,3 +20,74 @@
   installation:
     zipball:
       github: https://github.com/x-cmd/skill0/releases/latest/download/meme.zip
+
+- id: skill0/knowledge
+  url: skill0-data:knowledge
+  reference: https://github.com/x-cmd/skill0
+  tag:
+    - search
+    - hn
+    - wikipedia
+    - ddg
+    - rfc
+    - stack-overflow
+    - knowledge
+  license: Apache-2.0
+  name: knowledge
+  type: skill0
+  description:
+    en: "Search Hacker News, Wikipedia, DuckDuckGo, RFC docs, and Stack Exchange from the command line."
+    cn: "从命令行搜索 Hacker News、维基百科、DuckDuckGo、RFC 文档和 Stack Exchange。"
+  author: x-cmd
+  avatar: https://avatars.githubusercontent.com/u/79955600
+  path: /knowledge
+  installation:
+    zipball:
+      github: https://github.com/x-cmd/skill0/releases/latest/download/knowledge.zip
+
+- id: skill0/git
+  url: skill0-data:git
+  reference: https://github.com/x-cmd/skill0
+  tag:
+    - git
+    - github
+    - gitlab
+    - repo
+    - pr
+    - code-review
+  license: Apache-2.0
+  name: git
+  type: skill0
+  description:
+    en: "Git and code hosting platform management — GitHub, GitLab, Codeberg, Forgejo."
+    cn: "Git 和代码托管平台管理 — GitHub、GitLab、Codeberg、Forgejo。"
+  author: x-cmd
+  avatar: https://avatars.githubusercontent.com/u/79955600
+  path: /git
+  installation:
+    zipball:
+      github: https://github.com/x-cmd/skill0/releases/latest/download/git.zip
+
+- id: skill0/env
+  url: skill0-data:env
+  reference: https://github.com/x-cmd/skill0
+  tag:
+    - install
+    - package
+    - python
+    - node
+    - go
+    - jq
+    - runtime
+  license: Apache-2.0
+  name: env
+  type: skill0
+  description:
+    en: "Install and manage software packages, language runtimes, and CLI tools instantly. No sudo required."
+    cn: "即时安装和管理软件包、语言运行时和 CLI 工具。无需 sudo。"
+  author: x-cmd
+  avatar: https://avatars.githubusercontent.com/u/79955600
+  path: /env
+  installation:
+    zipball:
+      github: https://github.com/x-cmd/skill0/releases/latest/download/env.zip
