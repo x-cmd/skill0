@@ -1,12 +1,13 @@
 #!/usr/bin/env bash
-# Translate .x-cmd/translation/cn/ (Simplified) -> cn-hk/ (HK Traditional)
+# Translate skill0-cn/ (Simplified Chinese) -> skill0-cn-hk/ (HK Traditional)
 # using zhhz (https://github.com/ljh-sh/zhhz) with --from cn-s --to cn-hk.
 #
-# Pattern: mirror cn/ -> cn-hk/ with `cp -a`, then let zhhz convert the
-# mirror in place via --files-from. cn/ stays untouched, so the script
-# is fully repeatable — re-run after editing cn/ to refresh cn-hk/.
+# Pattern: mirror skill0-cn/ -> skill0-cn-hk/ with `cp -a`, then let zhhz
+# convert the mirror in place via --files-from. skill0-cn/ stays untouched,
+# so the script is fully repeatable — re-run after editing skill0-cn/ to
+# refresh skill0-cn-hk/.
 #
-# Usage:  ./.x-cmd/cn-hk.sh                 # translate every cn/* -> cn-hk/*
+# Usage:  ./.x-cmd/cn-hk.sh                 # translate every skill0-cn/* -> skill0-cn-hk/*
 #         ./.x-cmd/cn-hk.sh --check         # list files that would be translated
 
 set -eu
@@ -15,8 +16,8 @@ set -eu
 script_dir=$(cd "$(dirname "$0")" && pwd)
 repo_root=$(cd "$script_dir/.." && pwd)
 
-src_root="$repo_root/.x-cmd/translation/cn"
-dst_root="$repo_root/.x-cmd/translation/cn-hk"
+src_root="$repo_root/skill0-cn"
+dst_root="$repo_root/skill0-cn-hk"
 
 # Locate zhhz. Prefer PATH, fall back to eget snap.
 zhhz_bin=${ZHHZ:-}
@@ -42,7 +43,7 @@ if [ "${1:-}" = "--check" ] || [ "${1:-}" = "-n" ]; then
     exit 0
 fi
 
-# 1. Mirror cn/ -> cn-hk/ (preserves attributes; wipes stale cn-hk/).
+# 1. Mirror skill0-cn/ -> skill0-cn-hk/ (preserves attributes; wipes stale mirror).
 rm -rf "$dst_root"
 cp -a "$src_root" "$dst_root"
 
