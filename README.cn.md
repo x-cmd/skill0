@@ -1,5 +1,7 @@
 # skill0
 
+[English](README.md) · [简体中文](README.cn.md) — **[x-cmd.com/skill0 →](https://x-cmd.com/skill0)**
+
 [x-cmd](https://x-cmd.com) skill0 子技能的源内容仓库，以及两个翻译镜像。
 
 ## 目录结构
@@ -9,7 +11,7 @@ skill0/          原始英文内容（source of truth），在此编辑。
 skill0-cn/       简体中文（zh-CN）翻译版本。
 skill0-cn-hk/    香港繁体中文（zh-HK）翻译版本。由脚本生成，不要手改。
 .x-cmd/cn-hk.sh  用 ljh-sh/zhhz 从 skill0-cn/ 重新生成 skill0-cn-hk/ 的脚本。
-LICENSE          AGPLv3。
+LICENSE          Apache-2.0。
 ```
 
 | 目录 | 是否源 | 是否手改 | 内容 |
@@ -43,7 +45,7 @@ LICENSE          AGPLv3。
 ## 编辑流程
 
 - **英文内容** → 编辑 `skill0/<path>/SKILL.md`（新增条目时同步更新 `skill0/index.tsv`）。
-- **中文内容** → 编辑 `skill0-cn/<path>/SKILL.md`，frontmatter 的 `source:` 字段指向对应 `skill0/` 文件。
+- **中文内容** → 编辑 `skill0-cn/<path>/SKILL.md`，文件名/路径与 `skill0/<path>/SKILL.md` 一一对应。
 - **不要编辑 `skill0-cn-hk/`** —— 下一次跑 `cn-hk.sh` 会被覆盖。
 
 ## 另见

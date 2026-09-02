@@ -1,5 +1,7 @@
 # skill0
 
+[English](README.md) · [简体中文](README.cn.md) — **[x-cmd.com/skill0 →](https://x-cmd.com/skill0)**
+
 Source-of-truth content for the [x-cmd](https://x-cmd.com) skill0 sub-skills, plus two translation mirrors.
 
 ## Layout
@@ -9,7 +11,7 @@ skill0/         original source (English). Edit here.
 skill0-cn/      Simplified Chinese (zh-CN) translation of skill0/.
 skill0-cn-hk/   Hong Kong Traditional Chinese (zh-HK) translation. Generated; do not edit by hand.
 .x-cmd/cn-hk.sh  regenerates skill0-cn-hk/ from skill0-cn/ via ljh-sh/zhhz.
-LICENSE         AGPLv3.
+LICENSE         Apache-2.0.
 ```
 
 | Tree | Source? | Edit? | Content |
@@ -43,7 +45,7 @@ Pattern (no surprises):
 ## Editing workflow
 
 - **English content** → edit `skill0/<path>/SKILL.md` (and update `skill0/index.tsv` for new entries).
-- **Chinese content** → edit `skill0-cn/<path>/SKILL.md`. Keep frontmatter's `source:` pointer pointing at the corresponding `skill0/` file.
+- **Chinese content** → edit `skill0-cn/<path>/SKILL.md`. File path mirrors the corresponding `skill0/<path>/SKILL.md` exactly.
 - **Never edit `skill0-cn-hk/`** — your changes will be lost on the next `cn-hk.sh` run.
 
 ## See also
