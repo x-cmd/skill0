@@ -1,11 +1,4 @@
 ---
-source: lib/skill0/data/meme/SKILL.md
-target_lang: zh-CN
-generated_by: claude
-generated_at: 2026-09-02
----
-
----
 name: meme
 description: |
   通过在图片上加文字生成梗图。

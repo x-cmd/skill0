@@ -1,10 +1,3 @@
----
-source: lib/skill0/core/yfm/usecase/jekyll.md
-target_lang: zh-CN
-generated_by: claude
-generated_at: 2026-09-02
----
-
 # Jekyll
 
 文档：<https://jekyllrb.com/docs/front-matter/>

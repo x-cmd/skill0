@@ -1,10 +1,3 @@
----
-source: lib/skill0/core/yfm/usecase/hugo.md
-target_lang: zh-CN
-generated_by: claude
-generated_at: 2026-09-02
----
-
 # Hugo
 
 文档：<https://gohugo.io/content-management/front-matter/>

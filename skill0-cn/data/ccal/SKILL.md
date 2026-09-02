@@ -1,11 +1,4 @@
 ---
-source: lib/skill0/data/ccal/SKILL.md
-target_lang: zh-CN
-generated_by: claude
-generated_at: 2026-09-02
----
-
----
 name: ccal
 description: |
   中国地区日历，含 调休、农历、节气、生肖、黄历吉凶、干支纪年。

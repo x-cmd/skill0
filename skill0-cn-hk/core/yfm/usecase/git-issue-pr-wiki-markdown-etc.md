@@ -1,10 +1,3 @@
----
-source: lib/skill0/core/yfm/usecase/git-issue-pr-wiki-markdown-etc.md
-target_lang: zh-CN
-generated_by: claude
-generated_at: 2026-09-02
----
-
 # Surfaces — 哪裏用哪個 YFM
 
 yfm skill 的逐 surface 映射。對於 x-cmd 寫入或讀取的每個 markdown surface，哪些字段適用。

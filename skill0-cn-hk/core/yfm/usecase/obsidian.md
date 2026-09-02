@@ -1,10 +1,3 @@
----
-source: lib/skill0/core/yfm/usecase/obsidian.md
-target_lang: zh-CN
-generated_by: claude
-generated_at: 2026-09-02
----
-
 # Obsidian
 
 文檔：<https://help.obsidian.md/Editing+and+formatting/Properties>

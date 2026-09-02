@@ -1,11 +1,4 @@
 ---
-source: lib/skill0/core/issue/SKILL.md
-target_lang: zh-CN
-generated_by: claude
-generated_at: 2026-09-02
----
-
----
 name: issue
 description: devloop 的 issue 管理 —— 提供目標、rule.yml、關鍵結果與 issue 生命週期的模板。
 metadata:

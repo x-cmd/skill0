@@ -1,11 +1,4 @@
 ---
-source: lib/skill0/core/yfm/SKILL.md
-target_lang: zh-CN
-generated_by: claude
-generated_at: 2026-09-02
----
-
----
 name: yfm
 description: |
   任意 markdown 文章的 YAML front matter（YFM）。x-cmd 的默認有三個：`tags`、`description`、`memo`。默認借鑑 Agent Skills frontmatter 形態 —— 見 <https://agentskills.io/specification>。yfm 模塊是個 helper：`x yfm ls / init / lint`。

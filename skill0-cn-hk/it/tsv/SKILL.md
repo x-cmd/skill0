@@ -1,11 +1,4 @@
 ---
-source: lib/skill0/it/tsv/SKILL.md
-target_lang: zh-CN
-generated_by: claude
-generated_at: 2026-09-02
----
-
----
 name: tsv
 description: |
   TSV 數據處理 —— 查看、過濾、轉換 tab 分隔數據。

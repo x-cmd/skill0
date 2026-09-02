@@ -1,11 +1,4 @@
 ---
-source: lib/skill0/it/env/SKILL.md
-target_lang: zh-CN
-generated_by: claude
-generated_at: 2026-09-02
----
-
----
 name: env
 description: |
   即时安装与管理软件包、语言运行时、CLI 工具。

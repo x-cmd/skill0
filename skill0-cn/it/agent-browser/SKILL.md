@@ -1,11 +1,4 @@
 ---
-source: lib/skill0/it/agent-browser/SKILL.md
-target_lang: zh-CN
-generated_by: claude
-generated_at: 2026-09-02
----
-
----
 name: agent-browser
 description: 通过 Chrome/Chromium CDP 做浏览器自动化 —— open、snapshot、click、screenshot。用于测试 Web 应用、移动布局与自动化交互，无需 Playwright/Puppeteer。
 metadata:

@@ -1,11 +1,4 @@
 ---
-source: lib/skill0/core/prompt/SKILL.md
-target_lang: zh-CN
-generated_by: claude
-generated_at: 2026-09-02
----
-
----
 name: prompt
 description: x-cmd 的 prompt 工程約定 —— 通過模板變量複用、約定結構、安全強制模式。
 metadata:

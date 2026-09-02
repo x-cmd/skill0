@@ -1,11 +1,4 @@
 ---
-source: lib/skill0/it/git/SKILL.md
-target_lang: zh-CN
-generated_by: claude
-generated_at: 2026-09-02
----
-
----
 name: git
 description: |
   Git 与代码托管平台管理 —— GitHub、GitLab、Codeberg、Forgejo。

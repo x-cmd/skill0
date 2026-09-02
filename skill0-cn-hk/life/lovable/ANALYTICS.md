@@ -1,10 +1,3 @@
----
-source: lib/skill0/life/lovable/ANALYTICS.md
-target_lang: zh-CN
-generated_by: claude
-generated_at: 2026-09-02
----
-
 # Lovable analytics
 
 屬於 [lovable SKILL.md](SKILL.md)。完整 MCP 參考：[lovable-mcp-server.md](https://docs.lovable.dev/integrations/lovable-mcp-server.md)。

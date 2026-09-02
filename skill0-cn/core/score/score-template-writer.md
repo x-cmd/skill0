@@ -1,10 +1,3 @@
----
-source: lib/skill0/core/score/score-template-writer.md
-target_lang: zh-CN
-generated_by: claude
-generated_at: 2026-09-02
----
-
 # Score Template Writer
 
 如何为 skill0/score 框架写一份好的 `.score.yml` 模板。

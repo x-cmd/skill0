@@ -1,10 +1,3 @@
----
-source: lib/skill0/core/rule/rule-vs-score.md
-target_lang: zh-CN
-generated_by: claude
-generated_at: 2026-09-02
----
-
 # Rule vs Score
 
 為不同問題設計的兩個互補框架。

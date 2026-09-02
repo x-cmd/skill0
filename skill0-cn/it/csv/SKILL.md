@@ -1,11 +1,4 @@
 ---
-source: lib/skill0/it/csv/SKILL.md
-target_lang: zh-CN
-generated_by: claude
-generated_at: 2026-09-02
----
-
----
 name: csv
 description: |
   CSV 数据处理 —— 查看、过滤、转换、合并表格数据。

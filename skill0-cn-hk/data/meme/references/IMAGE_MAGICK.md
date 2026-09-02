@@ -1,10 +1,3 @@
----
-source: lib/skill0/data/meme/references/IMAGE_MAGICK.md
-target_lang: zh-CN
-generated_by: claude
-generated_at: 2026-09-02
----
-
 # ImageMagick 後端
 
 ## 安裝

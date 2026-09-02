@@ -1,11 +1,4 @@
 ---
-source: lib/skill0/it/qr/SKILL.md
-target_lang: zh-CN
-generated_by: claude
-generated_at: 2026-09-02
----
-
----
 name: qr
 description: |
   QR 码生成 —— 终端显示、PNG 输出、纯 shell 编码。

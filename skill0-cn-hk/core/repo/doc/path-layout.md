@@ -1,10 +1,3 @@
----
-source: lib/skill0/core/repo/doc/path-layout.md
-target_lang: zh-CN
-generated_by: claude
-generated_at: 2026-09-02
----
-
 # path layout
 
 x repo 管理的三類路徑的詳細目錄結構。SKILL.md 給出操作規則；本文是其背後的完整語法。

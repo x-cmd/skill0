@@ -1,11 +1,4 @@
 ---
-source: lib/skill0/core/skill0-writer/SKILL.md
-target_lang: zh-CN
-generated_by: claude
-generated_at: 2026-09-02
----
-
----
 name: skill0-writer
 description: skill0 文档的写作约定 —— 金字塔结构、行数上限、布局规则。
 metadata:

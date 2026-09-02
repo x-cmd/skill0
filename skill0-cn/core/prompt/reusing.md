@@ -1,10 +1,3 @@
----
-source: lib/skill0/core/prompt/reusing.md
-target_lang: zh-CN
-generated_by: claude
-generated_at: 2026-09-02
----
-
 # Prompt reusing
 
 属于 [prompt SKILL.md](SKILL.md)。

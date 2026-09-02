@@ -1,11 +1,4 @@
 ---
-source: lib/skill0/life/lovable/SKILL.md
-target_lang: zh-CN
-generated_by: claude
-generated_at: 2026-09-02
----
-
----
 name: lovable
 description: Lovable MCP 工具用法 —— 部署项目、向 agent 发消息、用 agent-browser 测试。通过委托本地 repo 来减少 credits。
 metadata:

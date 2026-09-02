@@ -1,10 +1,3 @@
----
-source: lib/skill0/data/meme/references/INSTALL.md
-target_lang: zh-CN
-generated_by: claude
-generated_at: 2026-09-02
----
-
 # 安装依赖
 
 ## x-cmd（可选）

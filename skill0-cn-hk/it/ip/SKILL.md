@@ -1,11 +1,4 @@
 ---
-source: lib/skill0/it/ip/SKILL.md
-target_lang: zh-CN
-generated_by: claude
-generated_at: 2026-09-02
----
-
----
 name: ip
 description: |
   IP 地址工具 —— 地理定位、子網掃描、端口發現。

@@ -1,11 +1,4 @@
 ---
-source: lib/skill0/data/wikipedia/SKILL.md
-target_lang: zh-CN
-generated_by: claude
-generated_at: 2026-09-02
----
-
----
 name: wikipedia
 description: |
   通过 x wkp 搜索与阅读 Wikipedia —— MediaWiki API、无需 API key、零安装；

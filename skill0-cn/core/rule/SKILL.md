@@ -1,11 +1,4 @@
 ---
-source: lib/skill0/core/rule/SKILL.md
-target_lang: zh-CN
-generated_by: claude
-generated_at: 2026-09-02
----
-
----
 name: rule
 description: 基于规则的合规检查 —— 找出问题、保证最低质量。与 `x rule` 配对使用 shell 工作流；rule vs score 的取舍见 rule-vs-score.md。
 metadata:

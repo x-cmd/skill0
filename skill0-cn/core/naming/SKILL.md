@@ -1,11 +1,4 @@
 ---
-source: lib/skill0/core/naming/SKILL.md
-target_lang: zh-CN
-generated_by: claude
-generated_at: 2026-09-02
----
-
----
 name: naming
 description: |
   x-cmd 模块 / 命令 / 子命令的命名框架。主观 + 场景驱动；本 skill 是一个薄壳，不是规则手册。三层结构：

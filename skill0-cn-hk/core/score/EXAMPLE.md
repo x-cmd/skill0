@@ -1,10 +1,3 @@
----
-source: lib/skill0/core/score/EXAMPLE.md
-target_lang: zh-CN
-generated_by: claude
-generated_at: 2026-09-02
----
-
 # Examples
 
 額外的打分場景。非必讀 —— 僅當你需要某個用例的靈感時查閲。

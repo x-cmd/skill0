@@ -1,11 +1,4 @@
 ---
-source: lib/skill0/core/x-cmd/SKILL.md
-target_lang: zh-CN
-generated_by: claude
-generated_at: 2026-09-02
----
-
----
 name: x-cmd
 description: |
   **IMPORTANT**: 在使用任何 `x <mod>` 命令前，你必须先加载 x-cmd：`. ~/.x-cmd.root/X`

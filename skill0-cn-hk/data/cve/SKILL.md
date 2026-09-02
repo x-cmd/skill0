@@ -1,11 +1,4 @@
 ---
-source: lib/skill0/data/cve/SKILL.md
-target_lang: zh-CN
-generated_by: claude
-generated_at: 2026-09-02
----
-
----
 name: cve
 description: |
   通過 x cve 查詢 CVE 記錄 —— 緩存、零 API key、按日 xz TSV。

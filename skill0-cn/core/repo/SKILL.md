@@ -1,11 +1,4 @@
 ---
-source: lib/skill0/core/repo/SKILL.md
-target_lang: zh-CN
-generated_by: claude
-generated_at: 2026-09-02
----
-
----
 name: repo
 description: agent 克隆仓库位置与 worktree 布局的约定 + 工具。默认 bare repo 在 `~/.x-repo/.bare/<provider>/<owner>/<name>.git`，linked working tree 在 `~/.x-repo/<provider>/<owner>/<name>[/@<wtname>]` 下。通过 `x repo ls` 发现。worktree 管理通过 `x repo wt`。适用于 "where to clone"、"git clone path"、"workspace layout"、"shared repos between agents"、"worktree path"。
 metadata:

@@ -1,10 +1,3 @@
----
-source: lib/skill0/core/repo/doc/design.md
-target_lang: zh-CN
-generated_by: claude
-generated_at: 2026-09-02
----
-
 # design rationale
 
 本文解释 x repo 布局**为何**长成这样。

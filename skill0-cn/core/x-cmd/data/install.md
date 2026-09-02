@@ -1,10 +1,3 @@
----
-source: lib/skill0/core/x-cmd/data/install.md
-target_lang: zh-CN
-generated_by: claude
-generated_at: 2026-09-02
----
-
 # x-cmd 安装指南
 
 > 面向安全的 x-cmd 安装选项。

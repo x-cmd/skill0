@@ -1,10 +1,3 @@
----
-source: lib/skill0/data/meme/references/PILLOW.md
-target_lang: zh-CN
-generated_by: claude
-generated_at: 2026-09-02
----
-
 # Pillow 后端
 
 ## 用法

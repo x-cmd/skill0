@@ -1,11 +1,4 @@
 ---
-source: lib/skill0/it/time/SKILL.md
-target_lang: zh-CN
-generated_by: claude
-generated_at: 2026-09-02
----
-
----
 name: time
 description: |
   命令执行计时 —— 微秒精度、统计分析、对比。

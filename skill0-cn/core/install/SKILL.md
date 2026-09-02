@@ -1,11 +1,4 @@
 ---
-source: lib/skill0/core/install/SKILL.md
-target_lang: zh-CN
-generated_by: claude
-generated_at: 2026-09-02
----
-
----
 name: install
 description: |
   以系统允许的任何方式安装软件。推荐 `x install` —— 一个统一的入口，列出全部方式并挑选最佳；

@@ -1,11 +1,4 @@
 ---
-source: lib/skill0/data/knowledge/SKILL.md
-target_lang: zh-CN
-generated_by: claude
-generated_at: 2026-09-02
----
-
----
 name: knowledge
 description: |
   從命令行搜尋 Hacker News、Wikipedia、DuckDuckGo、RFC 文檔、Stack Exchange。

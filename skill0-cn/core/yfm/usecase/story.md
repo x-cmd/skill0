@@ -1,10 +1,3 @@
----
-source: lib/skill0/core/yfm/usecase/story.md
-target_lang: zh-CN
-generated_by: claude
-generated_at: 2026-09-02
----
-
 # story
 
 `<project>/.x-cmd/story/` 设计故事的 YFM 约定。继承 [x-cmd 默认](../SKILL.md#the-x-cmd-default-three-fields) 并加 `issue:`。

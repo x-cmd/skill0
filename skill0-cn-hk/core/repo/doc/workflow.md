@@ -1,10 +1,3 @@
----
-source: lib/skill0/core/repo/doc/workflow.md
-target_lang: zh-CN
-generated_by: claude
-generated_at: 2026-09-02
----
-
 # workflow · 通用操作流程與"清理而非刪除"原則
 
 > agent 何時、如何創建 worktree，何時刪除，以及何時 **不** 刪除。做重要的多倉工作前讀一遍；存疑時回來查。

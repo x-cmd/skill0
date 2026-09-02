@@ -1,10 +1,3 @@
----
-source: lib/skill0/it/agent-browser/CLEANUP.md
-target_lang: zh-CN
-generated_by: claude
-generated_at: 2026-09-02
----
-
 # agent-browser cleanup
 
 `close` 不删任何数据。轻量与完整清理都安全 —— **无需重新授权** （macOS 上验证过）。

@@ -1,11 +1,4 @@
 ---
-source: lib/skill0/core/score/SKILL.md
-target_lang: zh-CN
-generated_by: claude
-generated_at: 2026-09-02
----
-
----
 name: score
 description: |
   為 AI agent 設計的加權維度打分框架 —— "Don't guess. Score." 核心理念：先理解需求、先草稿再迭代，agent 是分析師。通過 `x score compute` 輸出排序後的 TSV。

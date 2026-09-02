@@ -1,10 +1,3 @@
----
-source: lib/skill0/data/meme/references/GUIDELINES.md
-target_lang: zh-CN
-generated_by: claude
-generated_at: 2026-09-02
----
-
 # AI Agent 使用指南
 
 ## 使用準則

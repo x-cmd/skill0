@@ -1,11 +1,4 @@
 ---
-source: lib/skill0/SKILL.md
-target_lang: zh-CN
-generated_by: claude
-generated_at: 2026-09-02
----
-
----
 name: skill0
 description: "x-cmd skill0 子技能的根索引。定義 OKR 風格的 agent 工作流（目標 → 規則驗證的結果 → 執行）、技能發現與 agent 工具偏好。風格：原則先行、簡潔，具體細節委託給權威外部來源。"
 metadata:

@@ -1,11 +1,4 @@
 ---
-source: lib/skill0/core/ontology-database/SKILL.md
-target_lang: zh-CN
-generated_by: claude
-generated_at: 2026-09-02
----
-
----
 name: ontology-database
 description: 通過 TSV append-only log 實現的類型化知識圖譜 —— entity CRUD、有向關係、schema 校驗、多跳推理。CLI 通過 `x ondb`，協議可由 AWK/Python/JS/SQLite 讀取。
 metadata:

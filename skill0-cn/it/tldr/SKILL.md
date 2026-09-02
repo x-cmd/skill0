@@ -1,11 +1,4 @@
 ---
-source: lib/skill0/it/tldr/SKILL.md
-target_lang: zh-CN
-generated_by: claude
-generated_at: 2026-09-02
----
-
----
 name: tldr
 description: |
   来自 tldr-pages 项目的命令参考，配实用示例。

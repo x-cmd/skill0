@@ -1,11 +1,4 @@
 ---
-source: lib/skill0/core/devloop/SKILL.md
-target_lang: zh-CN
-generated_by: claude
-generated_at: 2026-09-02
----
-
----
 name: devloop
 description: 目标驱动的开发循环 —— 定义目标、用关键结果写规则、可视化验证、同步到 issue tracker。
 metadata:
