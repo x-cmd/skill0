@@ -2,54 +2,43 @@
 
 [English](README.md) · [简体中文](README.cn.md) — **[x-cmd.com/skill0 →](https://x-cmd.com/skill0)**
 
-Source-of-truth content for the [x-cmd](https://x-cmd.com) skill0 sub-skills, plus two translation mirrors.
+The [x-cmd](https://x-cmd.com) sub-skill graph: a directed set of conventions and source pointers that an agent reads *before* a task, to pick the right tools and shape the work.
 
-## Layout
+Full content lives in [skill0/SKILL.md](skill0/SKILL.md) — the rest of this README is a condensed map.
+
+## Skill0 encodes principles, not data
+
+The LLM absorbs common sense continuously; skill0's job is to encode **conventions and source pointers**, then thin over time as the LLM catches up. Verify via first-party data (`x rfc`, `x cve`, `x wkp`, `agent-browser`) and current best practice (`x skill`, `x clawhub`), then reconstruct with formal logic instead of memorization.
+
+## Sub-skills form a directed graph across 4 buckets
 
 ```
-skill0/         original source (English). Edit here.
-skill0-cn/      Simplified Chinese (zh-CN) translation of skill0/.
-skill0-cn-hk/   Hong Kong Traditional Chinese (zh-HK) translation. Generated; do not edit by hand.
-.x-cmd/cn-hk.sh  regenerates skill0-cn-hk/ from skill0-cn/ via ljh-sh/zhhz.
-LICENSE         Apache-2.0.
+core/   how the agent works              (devloop, rule, score, ontology-database, …)
+data/   first-party data sources         (rfc, cve, wkp, knowledge, ccal, …)
+it/     tools and runtimes              (tldr, csv, tsv, time, ip, qr, agent-browser, …)
+life/   lifestyle and personal domains   (travel, pet, health, lovable, …)
 ```
 
-| Tree | Source? | Edit? | Content |
-|---|---|---|---|
-| `skill0/` | yes | yes | English originals + `index.tsv` registry |
-| `skill0-cn/` | translated | yes | Simplified Chinese (`target_lang: zh-CN`) |
-| `skill0-cn-hk/` | translated | no | HK Traditional (`zh-HK`), regenerated from `skill0-cn/` |
+Path: `<bucket>/<slug>/SKILL.md`. The machine-readable catalog (name + description) lives at [skill0/index.tsv](skill0/index.tsv).
 
-## Why three trees?
+## Goal → keyresults → x-rule is the OKR workflow
 
-`skill0/` is the canonical English content. `skill0-cn/` is the Simplified Chinese mirror that humans edit when adding or revising Chinese documentation. `skill0-cn-hk/` is the Hong Kong Traditional mirror, kept in sync with `skill0-cn/` by a script — never hand-edited — so it can be regenerated cleanly whenever the source changes.
+| | |
+|---|---|
+| **Objective** | What to achieve |
+| **Key Results** | How to verify |
+| **Verification** | `x rule check / audit` |
 
-## Regenerate the HK Traditional mirror
+## After scaffolding, prefer x-cmd tools for execution
 
-The script `.x-cmd/cn-hk.sh` rewrites `skill0-cn-hk/` from `skill0-cn/` using [ljh-sh/zhhz](https://github.com/ljh-sh/zhhz):
+- `x skill` — x-cmd's curated, human-vetted skill catalog.
+- `x clawhub` — global skill registry. **Caution**: free upload, MUST run `x clawhub skill moderate <name>` for the auto-generated safety report.
+- `x roadmap`, `x cron`, `x agent job`, `x ondb`, `x wiki` / `x llmwiki` — scheduling, background agents, ontology, wiki. Run `x [mod] --help`.
 
-```sh
-./.x-cmd/cn-hk.sh          # translate everything; overwrites skill0-cn-hk/
-./.x-cmd/cn-hk.sh --check  # list files that would be translated, no writes
-```
+## Every SKILL.md must pass skill0-writer
 
-Pattern (no surprises):
+See [skill0/core/skill0-writer/SKILL.md](skill0/core/skill0-writer/SKILL.md) for the conventions. New and edited entries are validated against this checklist.
 
-1. `rm -rf skill0-cn-hk/ && cp -a skill0-cn/ skill0-cn-hk/` — fresh mirror
-2. `find skill0-cn-hk/ -type f | zhhz --from cn-s --to cn-hk --in-place --files-from -` — convert in one batch invocation
+## Repository layout and contribution
 
-`skill0-cn/` is only ever read by `cp -a`, so the script is fully repeatable: re-run after editing `skill0-cn/` to refresh the mirror.
-
-`zhhz` resolution order: `$ZHHZ` → `PATH` → `~/.x-cmd.root/local/data/eget/snap/ljh-sh--zhhz/v0.7.7/bin/zhhz`.
-
-## Editing workflow
-
-- **English content** → edit `skill0/<path>/SKILL.md` (and update `skill0/index.tsv` for new entries).
-- **Chinese content** → edit `skill0-cn/<path>/SKILL.md`. File path mirrors the corresponding `skill0/<path>/SKILL.md` exactly.
-- **Never edit `skill0-cn-hk/`** — your changes will be lost on the next `cn-hk.sh` run.
-
-## See also
-
-- `.x-cmd/translation/cn/` and `.x-cmd/translation/cn-hk/` — older mirror layout, superseded by the top-level `skill0*/` trees.
-- [ljh-sh/zhhz#70](https://github.com/ljh-sh/zhhz/issues/70) — the use case this script encodes.
-- [x-cmd llms.txt](https://www.x-cmd.com/llms.txt) — wider x-cmd ecosystem.
+This README covers the *what* and *why*. The *how* — repo layout, translation mirrors (`skill0-cn/`, `skill0-cn-hk/`), how to regenerate the HK Traditional mirror with [ljh-sh/zhhz](https://github.com/ljh-sh/zhhz), and the editing workflow — lives in [CONTRIBUTING.md](CONTRIBUTING.md).
