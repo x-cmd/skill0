@@ -4,7 +4,24 @@
 
 The [x-cmd](https://x-cmd.com) sub-skill graph: a directed set of conventions and source pointers that an agent reads *before* a task, to pick the right tools and shape the work.
 
-Full content lives in [skill0/SKILL.md](skill0/SKILL.md) — the rest of this README is a condensed map.
+Full content lives in the root skill — read it in any of the three languages this repo ships: [skill0/SKILL.md](skill0/SKILL.md) (English, canonical) · [skill0-cn/SKILL.md](skill0-cn/SKILL.md) (简体中文) · [skill0-cn-hk/SKILL.md](skill0-cn-hk/SKILL.md) (繁體中文). The rest of this README is a condensed map.
+
+## skill0 vs a "skill"
+
+The two words describe different layers and are easy to confuse.
+
+- **A skill** is a *unit of capability*. It teaches the agent "do X when Y happens." Skills are *content*: each one ships a procedure or reference for one task. They live in `x skill`'s curated catalog or `x clawhub`'s open registry, and are updated when the task itself changes.
+
+- **skill0** is the *methodology and graph* that sits one level above individual skills. It encodes principles (use first-party data, follow OKR, prefer x-cmd tools), organizes skills into the 4 buckets (`core/`, `data/`, `it/`, `life/`), and links them through `metadata.related:`. **skill0 is loaded *before* the agent picks a skill, not as one.** As the LLM absorbs more common sense, skill0 *thins*; individual skills don't.
+
+| | a skill | skill0 |
+|---|---|---|
+| What it is | A unit of capability | A methodology + sub-skill graph |
+| Loaded when | The agent has a task to do | The agent is choosing *how* to work |
+| Form | One SKILL.md per task | A directed graph of related skills |
+| Curated by | `x skill` (human-vetted) / `x clawhub` (open) | x-cmd maintainers (this repo) |
+| Updated when | The task changes | The LLM catches up — they thin |
+| Encodes | Procedure | Principles, plus a procedure for picking procedures |
 
 ## Skill0 encodes principles, not data
 
